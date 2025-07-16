@@ -1,0 +1,3 @@
+displayName = Dark Souls Equipment
+author = Coomstein
+version = 0.1

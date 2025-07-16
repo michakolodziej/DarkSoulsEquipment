@@ -1,0 +1,25 @@
+Items: {
+	Greatsword: {
+		DisplayName: Greatsword
+		Tooltip:
+			'''
+			Hold LMB for fast swings
+			Click RMB for a slower attack to shoot out a small boulder
+			'''
+	}
+
+	DragonslayerGreatbow: {
+		DisplayName: Dragonslayer Greatbow
+		Tooltip: ""
+	}
+
+	DragonslayerArrow: {
+		DisplayName: Dragonslayer Arrow
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	BoulderProjectile2.DisplayName: Boulder Projectile2
+	DragonslayerArrowProjectile.DisplayName: Dragonslayer Arrow Projectile
+}
