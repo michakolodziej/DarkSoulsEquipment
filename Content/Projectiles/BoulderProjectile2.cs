@@ -45,7 +45,7 @@ namespace DarkSoulsEquipment.Content.Projectiles
             }
             if (Projectile.ai[0] >= 5)
             {
-                Projectile.rotation += 0.08f;
+                Projectile.rotation += 0.1f;
             }
 
         }
