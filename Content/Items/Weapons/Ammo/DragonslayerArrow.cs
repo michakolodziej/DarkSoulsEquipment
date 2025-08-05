@@ -21,16 +21,25 @@ namespace DarkSoulsEquipment.Content.Items.Weapons.Ammo
         {
             Item.width = 15;
             Item.height = 86;
+            Item.rare = ItemRarityID.LightPurple;
 
-            Item.damage = 100;
+            Item.damage = 50;
             Item.DamageType = DamageClass.Ranged;
             Item.knockBack = 5;
 
             Item.maxStack = 999;
             Item.consumable = true;
 
-            Item.ammo = AmmoID.Arrow;
+            Item.ammo = Item.type;
             Item.shoot = ModContent.ProjectileType<DragonslayerArrowProjectile>();
+        }
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe(333);
+            recipe.AddIngredient(ItemID.HallowedBar, 1);
+            recipe.AddTile(TileID.MythrilAnvil);
+            recipe.Register();
         }
     }
 }

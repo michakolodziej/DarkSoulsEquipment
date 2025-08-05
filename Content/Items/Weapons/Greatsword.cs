@@ -27,7 +27,7 @@ namespace DarkSoulsEquipment.Content.Items.Weapons
             Item.useAnimation = 30;
             Item.damage = 100;
             Item.knockBack = 15;
-            Item.crit = 10;
+            Item.crit = 5;
             Item.UseSound = SoundID.Item1;
 
             Item.autoReuse = false;
@@ -38,6 +38,16 @@ namespace DarkSoulsEquipment.Content.Items.Weapons
 
             Item.noUseGraphic = false;
             Item.noMelee = false;
+        }
+
+        public override void AddRecipes()
+        {
+            Recipe recipe = CreateRecipe();
+            recipe.AddIngredient(ItemID.HallowedBar, 15);
+
+            recipe.AddTile(TileID.MythrilAnvil);
+
+            recipe.Register();
         }
 
         public override bool AltFunctionUse(Player player)
