@@ -35,8 +35,6 @@ namespace DarkSoulsEquipment.Content.Items.Weapons
             Item.value = Item.buyPrice(gold: 35, silver: 50);
             Item.value = Item.sellPrice(gold: 5, silver: 33, copper: 33);
             
-
-            Item.noUseGraphic = false;
             Item.noMelee = false;
         }
 

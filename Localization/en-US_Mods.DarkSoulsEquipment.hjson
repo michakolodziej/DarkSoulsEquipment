@@ -37,9 +37,15 @@ Items: {
 			Easily pierces human flesh.
 			'''
 	}
+
+	SoulSpearScroll: {
+		DisplayName: Soul Spear Scroll
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	BoulderProjectile2.DisplayName: Boulder Projectile2
 	DragonslayerArrowProjectile.DisplayName: Dragonslayer Arrow Projectile
+	SoulSpearProjectile.DisplayName: Soul Spear Projectile
 }
