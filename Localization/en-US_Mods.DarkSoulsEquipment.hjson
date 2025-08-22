@@ -40,7 +40,13 @@ Items: {
 
 	SoulSpearScroll: {
 		DisplayName: Soul Spear Scroll
-		Tooltip: ""
+		Tooltip:
+      '''
+      Lore:
+      Sorcery developed by Big Hat Logan. Fire piercing soul spear.
+      A symbol of Logan's strength, the soul spear is referenced repeatedly in the legends, 
+      and is said to be on par with Lord Gwyn's lightning
+      '''
 	}
 }
 
