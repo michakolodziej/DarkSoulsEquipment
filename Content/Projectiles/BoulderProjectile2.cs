@@ -27,7 +27,7 @@ namespace DarkSoulsEquipment.Content.Projectiles
             Projectile.tileCollide = true;
             Projectile.ignoreWater = true;
         }
-        public override void Kill(int timeLeft)
+        public override void OnKill(int timeLeft)
         {
             SoundEngine.PlaySound(SoundID.Item70.WithVolumeScale(0.5f), Projectile.position);
             for (int i = 0; i < 30; i++)

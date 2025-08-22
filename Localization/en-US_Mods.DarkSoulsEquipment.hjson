@@ -37,9 +37,21 @@ Items: {
 			Easily pierces human flesh.
 			'''
 	}
+
+	SoulSpearScroll: {
+		DisplayName: Soul Spear Scroll
+		Tooltip:
+      '''
+      Lore:
+      Sorcery developed by Big Hat Logan. Fire piercing soul spear.
+      A symbol of Logan's strength, the soul spear is referenced repeatedly in the legends, 
+      and is said to be on par with Lord Gwyn's lightning
+      '''
+	}
 }
 
 Projectiles: {
 	BoulderProjectile2.DisplayName: Boulder Projectile2
 	DragonslayerArrowProjectile.DisplayName: Dragonslayer Arrow Projectile
+	SoulSpearProjectile.DisplayName: Soul Spear Projectile
 }
