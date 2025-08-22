@@ -29,7 +29,7 @@ namespace DarkSoulsEquipment.Content.Items.Weapons
             Item.useAnimation = 45;
             Item.mana = 20;
 
-            Item.damage = 200;
+            Item.damage = 150;
             Item.crit = 10;
             Item.knockBack = 5;
 
