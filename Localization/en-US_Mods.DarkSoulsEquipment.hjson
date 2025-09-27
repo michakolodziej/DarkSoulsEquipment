@@ -5,7 +5,7 @@ Items: {
 			'''
 			Hold LMB for fast swings
 			Click RMB for a slower attack to shoot out a small boulder
-			.
+			=====
 			Lore:
 			This ultra greatsword, with its thick blade, is one of the heaviest of its kind.
 			Highly destructive if intolerably heavy.
@@ -18,7 +18,7 @@ Items: {
 		Tooltip:
 			'''
 			Can only shoot Dragonslayer Greatarrows
-			.
+			=====
 			Lore:
 			Greatbow used by the Dragonslayers during the age of gods. 
 			Far greater in size than any normal bow, and far more devastating.
@@ -30,7 +30,7 @@ Items: {
 		Tooltip:
 			'''
 			Can only be used with Dragonslayer Greatbow.
-			.
+			=====
 			Lore:
 			Large spear-like arrows created by the giant blacksmith of the gods. 
 			These large arrows were said to have been used by dragon hunters during the age of the gods. 
@@ -40,7 +40,15 @@ Items: {
 
 	SoulSpearScroll: {
 		DisplayName: Soul Spear Scroll
-		Tooltip: ""
+		Tooltip:
+			'''
+			Fires homing Soul Spear projectiles.
+			=====
+			Lore:
+			Sorcery developed by Big Hat Logan. Fire piercing soul spear.
+			A symbol of Logan's strength, the soul spear is referenced repeatedly in the legends, 
+			and is said to be on par with Lord Gwyn's lightning
+			'''
 	}
 }
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DarkSoulsEquipment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0346eac67baca925e4cac3647c69b109e21608f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b2c18c1b3d1f9761440dc1b127dbeb0205ef4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DarkSoulsEquipment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DarkSoulsEquipment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
